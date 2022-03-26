@@ -112,14 +112,14 @@ if game.PlaceId == 603943201 then
             if userInput.KeyCode == FlyKey then
                 if Connection then
                     StarterGui:SetCore("SendNotification",{
-                        Title = "VUK FLY",
+                        Title = "VUK FLY ✈️✈️✈️",
                         Text = "Flight disabled"
                     })
                     Connection:Disconnect()
                     Connection = nil
                 else
                     StarterGui:SetCore("SendNotification",{
-                        Title = "VUK FLY",
+                        Title = "VUK FLY ✈️✈️✈️",
                         Text = "Flight enabled"
                     })
                     CurrentVelocity = UserRootPart.Velocity
@@ -129,7 +129,7 @@ if game.PlaceId == 603943201 then
         end)
         
         StarterGui:SetCore("SendNotification",{
-            Title = "VUK FLY",
+            Title = "VUK FLY ✈️✈️✈️",
             Text = "Loaded successfully"
         })
         
@@ -138,11 +138,23 @@ if game.PlaceId == 603943201 then
     end)
     
     modsection:NewButton("gamer goggles 😎 😎 😎","()",function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/vukkywukky/hehehe/main/hahaha"))()
-        
-        
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/vukkywukky/hehehe/main/Epic.txt"))()
+        StarterGui:SetCore("SendNotification",{
+             Title = "GAMER GOGGLES 😎 😎 😎",
+             Text = "Loaded successfully"
+        })
+	
+	
     end)
-
+    
+    modsection:NewButton("manus dei 💥🔫","()",function()
+    	loadstring(game:HttpGet("https://raw.githubusercontent.com/vukkywukky/hehehe/main/hohoho"))()
+	StarterGui:SetCore("SendNotification",{
+             Title = "MANUS DEI 💥🔫",
+             Text = "Loaded successfully"
+        })
+    
+    
 else
 	game:GetService("Players").LocalPlayer:Kick('You tried injecting the "IRF FUCKER" gui on a non-IRF game... 💩💩rip bozo💯💯💯💯🔥🔥🔥🔥💩💩')
 end
