@@ -160,7 +160,14 @@ if game.PlaceId == 603943201 then
     
     
     end)
-    
+StarterGui:SetCore("SendNotification",{
+	Title = "IRF FUCKER",
+	Text = "Loading..."
+})
+StarterGui:SetCore("SendNotification",{
+	Title = "IRF FUCKER",
+	Text = "Loaded successfully"
+})
 else
 	game:GetService("Players").LocalPlayer:Kick('You tried injecting the "IRF FUCKER" gui on a non-IRF game... 💩💩rip bozo💯💯💯💯🔥🔥🔥🔥💩💩')
 end
