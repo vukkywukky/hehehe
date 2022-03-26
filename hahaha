@@ -1,3 +1,4 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LioK251/Scripts/main/liokhub.lua"))()
 if game.PlaceId == 603943201 then
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
     local Window = Library.CreateLib("IRF Games", "Synapse")
@@ -135,6 +136,12 @@ if game.PlaceId == 603943201 then
         
         
  
+    end)
+    
+    modsection:NewButton("gamer goggles 😎 😎 😎","()",function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/vukkywukky/hehehe/main/hahaha"))()
+        
+        
     end)
 
 else
