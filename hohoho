@@ -1,0 +1,52 @@
+local UserInputService = game:GetService("UserInputService")
+
+local remote = game.ReplicatedStorage:WaitForChild("Damage")
+local reloadRemote = game.ReplicatedStorage:WaitForChild("ReloadEvent")
+
+local player = game.Players.LocalPlayer
+
+local key = Enum.KeyCode.P
+
+function RoundTo(Vector,DigitsAfterDecimal)
+    local shift = 10 ^ DigitsAfterDecimal
+    return Vector3.new((math.floor(Vector.X * shift + 0.5 ) / shift),(math.floor(Vector.Y * shift + 0.5 ) / shift),(math.floor(Vector.Z * shift + 0.5 ) / shift))
+end
+
+local function shootPlayer(character,myCharacter)
+    local hitPart = character:FindFirstChild("Head")
+    if not hitPart then return end 
+    local hitPosition = myCharacter.Head.Position + Vector3.new(0,5,0)
+    local checks = {
+        CodeA = RoundTo((hitPosition * 12.36),3),
+        CodeB = "☠☧☥😈🙏Ǣó³ǫ☇õĭJȷȣ★''😇☗🙈ǴǴĂ😂Ȩ"
+    }
+    
+    remote:FireServer(hitPart, hitPosition, checks)
+end
+
+local function reload()
+    reloadRemote:FireServer()
+end
+
+task.spawn(function()
+    while true do
+        task.wait(0.3)
+        reload()
+    end
+end)
+
+UserInputService.InputBegan:Connect(function(input,gameProcessed)
+    if not gameProcessed and input.KeyCode == key then
+        if player.Character then
+            for _,plr in ipairs(game.Players:GetPlayers()) do
+                if plr ~= player and plr.Character and plr.Team ~= player.Team then
+                    if plr.Character:FindFirstChild("Humanoid") then
+                        if plr.Character.Humanoid.Health > 0 then
+                            shootPlayer(plr.Character,player.Character)
+                        end
+                    end
+                end
+            end
+        end
+    end
+end)
