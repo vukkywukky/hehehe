@@ -155,6 +155,8 @@ if game.PlaceId == 603943201 then
         })
     
     
+    end)
+    
 else
 	game:GetService("Players").LocalPlayer:Kick('You tried injecting the "IRF FUCKER" gui on a non-IRF game... 💩💩rip bozo💯💯💯💯🔥🔥🔥🔥💩💩')
 end
