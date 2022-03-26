@@ -29,8 +29,8 @@ if game.PlaceId == 603943201 then
         end
         end
         StarterGui:SetCore("SendNotification",{
-             Title = "NIGGA TANK 🗿🗿🗿",
-             Text = "Loaded successfully"
+            Title = "NIGGA TANK 🗿🗿🗿",
+            Text = "Loaded successfully"
         })
 	
         
@@ -143,9 +143,11 @@ if game.PlaceId == 603943201 then
     
     modsection:NewButton("gamer goggles 😎 😎 😎","()",function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/vukkywukky/hehehe/main/Epic.txt"))()
+        
+        
         StarterGui:SetCore("SendNotification",{
-             Title = "GAMER GOGGLES 😎 😎 😎",
-             Text = "Loaded successfully"
+            Title = "GAMER GOGGLES 😎 😎 😎",
+            Text = "Loaded successfully"
         })
 	
 	
@@ -153,9 +155,11 @@ if game.PlaceId == 603943201 then
     
     modsection:NewButton("manus dei 💥🔫","()",function()
     	loadstring(game:HttpGet("https://raw.githubusercontent.com/vukkywukky/hehehe/main/hohoho"))()
-	StarterGui:SetCore("SendNotification",{
-             Title = "MANUS DEI 💥🔫",
-             Text = "Loaded successfully"
+    	
+    	
+    	StarterGui:SetCore("SendNotification",{
+            Title = "MANUS DEI 💥🔫",
+            Text = "Loaded successfully"
         })
     
     
