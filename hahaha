@@ -28,7 +28,11 @@ if game.PlaceId == 603943201 then
             stats.MainGunMinDam = 15000000000000
         end
         end
-        
+        StarterGui:SetCore("SendNotification",{
+             Title = "NIGGA TANK 🗿🗿🗿",
+             Text = "Loaded successfully"
+        })
+	
         
     end)
 
