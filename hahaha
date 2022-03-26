@@ -28,10 +28,10 @@ if game.PlaceId == 603943201 then
             stats.MainGunMinDam = 15000000000000
         end
         end
-        StarterGui:SetCore("SendNotification",{
-             Title = "NIGGA TANK 🗿🗿🗿",
-             Text = "Loaded successfully"
-        })
+    StarterGui:SetCore("SendNotification",{
+        Title = "NIGGA TANK 🗿🗿🗿",
+        Text = "Loaded successfully"
+    })
 	
         
     end)
@@ -132,10 +132,10 @@ if game.PlaceId == 603943201 then
             end
         end)
         
-        StarterGui:SetCore("SendNotification",{
-            Title = "VUK FLY ✈️✈️✈️",
-            Text = "Loaded successfully"
-        })
+    StarterGui:SetCore("SendNotification",{
+        Title = "VUK FLY ✈️✈️✈️",
+        Text = "Loaded successfully"
+    })
         
         
  
@@ -143,20 +143,20 @@ if game.PlaceId == 603943201 then
     
     modsection:NewButton("gamer goggles 😎 😎 😎","()",function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/vukkywukky/hehehe/main/Epic.txt"))()
-        StarterGui:SetCore("SendNotification",{
-             Title = "GAMER GOGGLES 😎 😎 😎",
-             Text = "Loaded successfully"
-        })
+    StarterGui:SetCore("SendNotification",{
+        Title = "GAMER GOGGLES 😎 😎 😎",
+        Text = "Loaded successfully"
+    })
 	
 	
     end)
     
     modsection:NewButton("manus dei 💥🔫","()",function()
     	loadstring(game:HttpGet("https://raw.githubusercontent.com/vukkywukky/hehehe/main/hohoho"))()
-	StarterGui:SetCore("SendNotification",{
-             Title = "MANUS DEI 💥🔫",
-             Text = "Loaded successfully"
-        })
+    StarterGui:SetCore("SendNotification",{
+        Title = "MANUS DEI 💥🔫",
+        Text = "Loaded successfully"
+    })
     
     
     end)
@@ -172,10 +172,10 @@ if game.PlaceId == 603943201 then
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
 	end)
 	tool.Parent = game.Players.LocalPlayer.Backpack
-	StarterGui:SetCore("SendNotification",{
-             Title = "FLASH ⚡⚡⚡",
-             Text = "Loaded successfully"
-        })
+    StarterGui:SetCore("SendNotification",{
+        Title = "FLASH ⚡⚡⚡",
+        Text = "Loaded successfully"
+    })
 	
 	
     end)
