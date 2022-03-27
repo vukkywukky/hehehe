@@ -1,6 +1,6 @@
 if game.PlaceId == 603943201 then
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-    local Window = Library.CreateLib("IRF Games", "Synapse")
+    local Window = Library.CreateLib("💯 IRF Destroyer 💯", "Midnight")
 
 
     --main tab
