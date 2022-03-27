@@ -16,7 +16,6 @@ if game.PlaceId == 603943201 then
             if v.Name == "VehicleSettings"then
                     local stats = require(v)
             stats.MainGunReloadTime = 0.001
-            stats.MainGunReloadTime = 0.001
             stats.MainGunExplosionRadius = 15000000000
             stats.MainGunClipSize = 1000000000
             stats.MainGunBurstSize = 1000000000
